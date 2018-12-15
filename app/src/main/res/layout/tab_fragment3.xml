@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:src="@drawable/bongda2"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="Trước thềm chung kết AFF Cup 2018'"
+            android:ems="10"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="#0055a3"
+            android:id="@+id/editText" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:src="@drawable/phuonghoangcotran"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="‘Phượng Hoàng Cổ Trấn"
+        android:ems="10"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textColor="#0055a3"
+        android:id="@+id/editText2" />
+
+</LinearLayout>
